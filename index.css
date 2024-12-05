@@ -91,35 +91,31 @@ body {
 
 #estrela {
   position: absolute;
-  margin-top: -68px;
+  margin-top: -65px;
   margin-left: -15px;
 }
 
 #destaque {
   font-family: "Cooper Black", sans-serif;
-  font-size: 55px;
+  font-size: 45px;
   display: flex;
   color: white;
+ 
 
   width: 35%;
 
   position: relative;
-  left: 150px;
+  left: 75px;
+  top: 50px;
+ 
 
   flex-direction: column;
-
-  
-}
-
-#abaixa{
-  margin-top: 85px;
 }
 
 
-#aspiral{
-
+#aspiral {
   margin-top: -60px;
-  margin-left: 750px;
+  margin-left: 700px;
 }
 
 #seta {
@@ -129,11 +125,11 @@ body {
 }
 
 #letra {
-  font-size: 27px;
+  font-size: 25px;
   margin-top: 300px;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -30px;
-  width: 110%;
+  width: 138%;
 }
 
 #queijo {
@@ -142,11 +138,9 @@ body {
   display: flex;
 
   flex-direction: row-reverse;
-  margin-top: -742px;
-  margin-left: -150px;
+  margin-top: -625px;
+  margin-left: -75px;
 }
-
-
 
 @media (max-width: 600px) {
   * {

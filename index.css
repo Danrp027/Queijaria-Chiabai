@@ -100,18 +100,15 @@ body {
   font-size: 45px;
   display: flex;
   color: white;
- 
 
   width: 35%;
 
   position: relative;
   left: 75px;
   top: 50px;
- 
 
   flex-direction: column;
 }
-
 
 #aspiral {
   margin-top: -60px;
@@ -142,8 +139,24 @@ body {
   margin-left: -75px;
 }
 
-@media (max-width: 600px) {
+/*@media (min-width: 300px) and (max-height: 900px) {*/
+
+/*CELULAR*/
+@media (max-width: 450px) {
   * {
-    font-size: 15px;
+    margin: 0px;
+  }
+
+  html, body{
+    width: 100%;
+  }
+
+  #frase {
+    font-size: 19px;
+
+
+    color: #468f2e;
+    position: relative;
+    animation: animarFrase 2s ease-out forwards;
   }
 }
